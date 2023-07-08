@@ -11,6 +11,10 @@
 		C03188212A57C12700A86056 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03188202A57C12700A86056 /* ContentView.swift */; };
 		C03188232A57C12800A86056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03188222A57C12800A86056 /* Assets.xcassets */; };
 		C03188272A57C12800A86056 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03188262A57C12800A86056 /* Preview Assets.xcassets */; };
+		C03188302A57E49D00A86056 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C031882F2A57E49D00A86056 /* CWButton.swift */; };
+		C03188342A57E59700A86056 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03188332A57E59700A86056 /* CardSelectionVC.swift */; };
+		C03188362A57E97400A86056 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03188352A57E97400A86056 /* Card.swift */; };
+		C03188382A58086300A86056 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03188372A58086300A86056 /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		C03188222A57C12800A86056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C03188242A57C12800A86056 /* CardWorkout_Programmatic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardWorkout_Programmatic.entitlements; sourceTree = "<group>"; };
 		C03188262A57C12800A86056 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C031882F2A57E49D00A86056 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		C03188332A57E59700A86056 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		C03188352A57E97400A86056 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C03188372A58086300A86056 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		C03188122A57C12700A86056 = {
 			isa = PBXGroup;
 			children = (
+				C03188372A58086300A86056 /* RulesVC.swift */,
 				C031881D2A57C12700A86056 /* CardWorkout-Programmatic */,
 				C031881C2A57C12700A86056 /* Products */,
 			);
@@ -52,11 +61,15 @@
 		C031881D2A57C12700A86056 /* CardWorkout-Programmatic */ = {
 			isa = PBXGroup;
 			children = (
+				C03188352A57E97400A86056 /* Card.swift */,
 				C031881E2A57C12700A86056 /* CardWorkout_ProgrammaticApp.swift */,
 				C03188202A57C12700A86056 /* ContentView.swift */,
+				C031882F2A57E49D00A86056 /* CWButton.swift */,
+				C03188262A57C12800A86056 /* Preview Assets.xcassets */,
 				C03188222A57C12800A86056 /* Assets.xcassets */,
 				C03188242A57C12800A86056 /* CardWorkout_Programmatic.entitlements */,
 				C03188252A57C12800A86056 /* Preview Content */,
+				C03188332A57E59700A86056 /* CardSelectionVC.swift */,
 			);
 			path = "CardWorkout-Programmatic";
 			sourceTree = "<group>";
@@ -64,7 +77,6 @@
 		C03188252A57C12800A86056 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C03188262A57C12800A86056 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,6 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03188212A57C12700A86056 /* ContentView.swift in Sources */,
+				C03188342A57E59700A86056 /* CardSelectionVC.swift in Sources */,
+				C03188382A58086300A86056 /* RulesVC.swift in Sources */,
+				C03188362A57E97400A86056 /* Card.swift in Sources */,
+				C03188302A57E49D00A86056 /* CWButton.swift in Sources */,
 				C031881F2A57C12700A86056 /* CardWorkout_ProgrammaticApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "CardWorkout-Programmatic/CardWorkout_Programmatic.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CardWorkout-Programmatic/Preview Content\"";
@@ -300,6 +317,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "CardWorkout-Programmatic/CardWorkout_Programmatic.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CardWorkout-Programmatic/Preview Content\"";
